@@ -44,7 +44,7 @@ use constant LOCK_EX => 2;
 use constant LOCK_UN => 8;
 
 $baseurl = "http://nagios.*****.com/nagios/";
-$logfile = "/usr/local/nagios/var/rw/nans.log";
+$logfile = "/var/log/icinga/nans.log";
 $loglevel = 5;
 $debug = 0;
 

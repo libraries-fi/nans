@@ -52,7 +52,7 @@ use constant SUBJECT => '=NANS=';
 ##### SET THESE VARIABLES #####
 $mailer	= "/usr/lib/sendmail";
 $divider = "\n|\n";
-$logfile = "/usr/local/nagios/var/rw/nans.log";
+$logfile = "/var/log/icinga/nans.log";
 $loglevel = 5;
 $from = '';
 $replyto = '';
